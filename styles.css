@@ -1,0 +1,31 @@
+ * {
+    box-sizing: border-box;
+    width: inherit;
+    height: auto;
+    
+} 
+
+.parent {
+    display: flex;
+
+}
+
+.first-son {
+    display: flex;
+    background-color: #1f2937;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-grand {
+    display: flex;
+    
+    
+}
+.descendant1 {
+    margin-left: auto;
+}
+
+.goodness {
+    max-width: 107px;
+}
